@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30324.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "WindowsAzureCloudService", "WindowsAzureCloudService\WindowsAzureCloudService.ccproj", "{86424FBB-CAC8-42D0-9775-7FA138610EA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebRole", "WebRole\WebRole.csproj", "{17F63401-88B3-4F9E-8816-5BF154F09C06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotSpatialProjection", "DotSpatialProjection\DotSpatialProjection.csproj", "{3AFDDF0B-CFA7-4C83-844A-CFCF90B16A0E}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs.iteraconsulting.no:8080/tfs/old%20defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WebRole\\WebRole.csproj
+		SccProjectName1 = WebRole
+		SccLocalPath1 = WebRole
+		SccProjectUniqueName2 = WindowsAzureCloudService\\WindowsAzureCloudService.ccproj
+		SccProjectName2 = WindowsAzureCloudService
+		SccLocalPath2 = WindowsAzureCloudService
+		SccProjectUniqueName3 = DotSpatialProjection\\DotSpatialProjection.csproj
+		SccProjectName3 = DotSpatialProjection
+		SccLocalPath3 = DotSpatialProjection
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86424FBB-CAC8-42D0-9775-7FA138610EA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86424FBB-CAC8-42D0-9775-7FA138610EA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86424FBB-CAC8-42D0-9775-7FA138610EA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86424FBB-CAC8-42D0-9775-7FA138610EA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17F63401-88B3-4F9E-8816-5BF154F09C06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17F63401-88B3-4F9E-8816-5BF154F09C06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17F63401-88B3-4F9E-8816-5BF154F09C06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17F63401-88B3-4F9E-8816-5BF154F09C06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AFDDF0B-CFA7-4C83-844A-CFCF90B16A0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AFDDF0B-CFA7-4C83-844A-CFCF90B16A0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AFDDF0B-CFA7-4C83-844A-CFCF90B16A0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AFDDF0B-CFA7-4C83-844A-CFCF90B16A0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

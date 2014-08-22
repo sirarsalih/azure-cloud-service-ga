@@ -1,0 +1,7 @@
+C:\Users\Sirar\Documents\Visual Studio 2013\Projects\ASPC2014\WindowsAzureCloudService\DotSpatialProjection\bin\Debug\DotSpatialProjection.dll
+C:\Users\Sirar\Documents\Visual Studio 2013\Projects\ASPC2014\WindowsAzureCloudService\DotSpatialProjection\bin\Debug\DotSpatialProjection.pdb
+C:\Users\Sirar\Documents\Visual Studio 2013\Projects\ASPC2014\WindowsAzureCloudService\DotSpatialProjection\bin\Debug\DotSpatial.Projections.dll
+C:\Users\Sirar\Documents\Visual Studio 2013\Projects\ASPC2014\WindowsAzureCloudService\DotSpatialProjection\bin\Debug\DotSpatial.Projections.xml
+C:\Users\Sirar\Documents\Visual Studio 2013\Projects\ASPC2014\WindowsAzureCloudService\DotSpatialProjection\obj\Debug\DotSpatialProjection.csprojResolveAssemblyReference.cache
+C:\Users\Sirar\Documents\Visual Studio 2013\Projects\ASPC2014\WindowsAzureCloudService\DotSpatialProjection\obj\Debug\DotSpatialProjection.dll
+C:\Users\Sirar\Documents\Visual Studio 2013\Projects\ASPC2014\WindowsAzureCloudService\DotSpatialProjection\obj\Debug\DotSpatialProjection.pdb

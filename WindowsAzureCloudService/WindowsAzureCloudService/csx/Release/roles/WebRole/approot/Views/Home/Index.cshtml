@@ -1,0 +1,106 @@
+﻿@model global::WebRole.ViewModels.MainViewModel
+
+<div class="jumbotron">
+    <h1>Sirar's Cloud Service</h1>
+    <h2>Introducing a genetic algorithm in the cloud</h2>
+</div>
+@using (Html.BeginForm("Solve", "Home"))
+{
+    <div class="row">
+        <div class="col-md-4">
+            <h3>Traveling Salesman Problem</h3>
+        </div>
+    </div>
+    <br/>
+    <div class="row">
+        <div class="col-md-3">
+            @Html.LabelFor(x => x.NumberOfCities)
+        </div>
+        <div class="col-md-2">
+            @Html.TextBoxFor(x => x.NumberOfCities)
+        </div>
+        <div class="col-md-3">
+            @Html.Label("(any number)")
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            @Html.LabelFor(x => x.NumberOfGenerations)
+        </div>
+        <div class="col-md-2">
+            @Html.TextBoxFor(x => x.NumberOfGenerations)
+        </div>
+        <div class="col-md-3">
+            @Html.Label("(any number)")
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            @Html.LabelFor(x => x.NumberOfChromosomes)
+        </div>
+        <div class="col-md-2">
+            @Html.TextBoxFor(x => x.NumberOfChromosomes)
+        </div>
+        <div class="col-md-3">
+            @Html.Label("(any number)")
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            @Html.LabelFor(x => x.RandomOrCirclePlotting)
+        </div>
+        <div class="col-md-2">
+            @Html.TextBoxFor(x => x.RandomOrCirclePlotting)
+        </div>
+        <div class="col-md-3">
+            @Html.Label("(1 or 2)")
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            @Html.LabelFor(x => x.MutationMethod)
+        </div>
+        <div class="col-md-2">
+            @Html.TextBoxFor(x => x.MutationMethod)
+        </div>
+        <div class="col-md-3">
+            @Html.Label("(1 = Random inversion)")
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            @Html.LabelFor(x => x.CrossOverMethod)
+        </div>
+        <div class="col-md-2">
+            @Html.TextBoxFor(x => x.CrossOverMethod)
+        </div>
+        <div class="col-md-5">
+            @Html.Label("(1 = Single point, 2 = Position based, 3 = Order based)")
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            @Html.LabelFor(x => x.SelectionMethod)
+        </div>
+        <div class="col-md-2">
+            @Html.TextBoxFor(x => x.SelectionMethod)
+        </div>
+        <div class="col-md-3">
+            @Html.Label("(1 = Elitisim, 2 = Roulette wheel)")
+        </div>
+    </div>
+
+    <input type="submit" class="btn btn-primary" name="SaveButton" value="Solve" />
+    <br /> <br />
+    <div class="row">
+        <div class="col-md-3">
+            @Html.LabelFor(x => x.Results)
+        </div>
+
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            @Html.TextAreaFor(x => x.Results, new { style = "width:200px; height: 300px;" })
+        </div>
+    </div>
+}
