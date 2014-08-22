@@ -16,7 +16,7 @@ This returns the following JSON:
 
 Where solution is the shortest path provided in pixels, and path is the shortest city route (1 is [400,300], 3 is [400,200] and so on).
 
-<h2>Arma 3 Coordinate Conversion</h2>
+<h2>Easter Egg: Arma 3 Coordinate Conversion</h2>
 
 The service was later extended with the ability to convert <code>[latitude,longitude]</code> coordinates to <code>[x,y]</code> <a href="http://arma3.com/" target="_blank">Arma 3</a> coordinates for the Altis map. <strong>It must be noted though that this conversion is imprecise</strong> and uses a fixed center location as reference on the Altis map. Here is a GET request example with <code>[latitude,longitude]</code>:
 
